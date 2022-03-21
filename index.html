@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .sticky{
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: blue;
+            text-align: center;
+            position: sticky;
+            top: 0;
+
+
+        }
+        .Menu{
+            list-style-type: none;
+
+        }
+        .item{
+            margin-left: 15px;
+            margin-right: 15px;
+            color: white;
+            padding: 12px 20px; 
+            cursor: pointer;
+            background: linear-gradient(red,green);
+            display: inline-block;
+        }
+    </style>
+
 </head>
-<body>
-    
+<body> 
+    <nav class="sticky">
+        <ul class="Menu">
+            <li class="item">HOME</li>
+            <li class="item">ABOUT</li>
+            <li class="item">CONTACT</li>
+            <li class="item">BLOG</li>
+            <li class="item">SERVICES</li>
+            <li class="item">PORTFOLIO</li>
+        </ul>
+    </nav>
+
 </body>
 </html>
